@@ -1,0 +1,66 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 32px;
+    color: white;
+}
+
+.container {
+    display: flex;
+    min-height: 50vh;
+    gap: 12px;
+    flex-wrap: wrap;
+    padding: 12px;
+    background-color: #000;
+    color: chartreuse;
+    margin: 32px;
+}
+
+.container {
+    display: flex;
+    min-height: 50vh;
+    gap: 12px;
+    flex-wrap: wrap;
+    padding: 12px;
+    background-color: #000;
+    color: white;
+    margin: 32px;
+    text-align: center;
+}
+
+.aluno {
+    height: 200px;
+    width: 200px;
+    background-color: yellow;
+}
+
+.aluno__azul h3 {
+    font-size: 7rem;
+    background-color: blue;
+}
+
+.aluno__azul {
+    font-size: 16px;
+    padding-top: 20px;
+    background-color: blue;
+}
+
+.aluno__vermelho h3 {
+    font-size: 7rem;
+    background-color: red;
+}
+
+.aluno__vermelho {
+    font-size: 16px;
+    padding-top: 20px;
+    background-color: red;
+}
+
+.aluno__title {
+    text-align: center;
+    padding: 8px;
+}
